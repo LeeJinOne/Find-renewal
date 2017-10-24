@@ -1,7 +1,9 @@
 package com.find.find_renewal;
 
+import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Handler;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +17,7 @@ import java.net.URL;
  */
 
 public class HttpTask extends AsyncTask<String, Void, String> {
-    private Handler handler = null;
+    Handler handler = null;
     private String flag = "";
 
     public HttpTask(Handler hand) {
@@ -29,15 +31,15 @@ public class HttpTask extends AsyncTask<String, Void, String> {
         HttpURLConnection conn = null;
         try {
             this.flag = params[0]; // 0번째 값을 flag 에 (php 파일)
-            String urlString = "http://13.124.222.23" + this.flag; // EC2 인스턴스 Elastic IPs
+            String urlString = "http://13.124.222.23/" + this.flag; // EC2 인스턴스 Elastic IPs
             URL url = new URL(urlString); // ulrString 을 url 객체로 변환
 
             conn = (HttpURLConnection)url.openConnection(); // url 연결
             conn.setDoInput(true); // 넣기 O
-            conn.setDoOutput(false); // 가져오기 X
+//            conn.setDoOutput(false); // 가져오기 X
             conn.setUseCaches(false); // 캐쉬 사용 X
             conn.setReadTimeout(20000); // 읽어오는데 20초 걸리면 땡
-            conn.setConnectTimeout(3000); // 연결시간 3초로 제한
+            conn.setConnectTimeout(5000); // 연결시간 5초로 제한
 
             conn.setRequestMethod("POST"); // POST 방식으로 통신
 
@@ -51,7 +53,7 @@ public class HttpTask extends AsyncTask<String, Void, String> {
             StringBuffer sb2 = new StringBuffer();
             BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
             for (;;) { // Background 에서 계속 실행
-                String line = br.readLine();
+                String line = br.readLine(); /* 여기서 널포인터예외 문제 발생 */
                 if (line == null) {
                     break;
                 }
