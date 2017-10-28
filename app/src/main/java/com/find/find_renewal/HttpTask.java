@@ -31,7 +31,7 @@ public class HttpTask extends AsyncTask<String, Void, String> {
         HttpURLConnection conn = null;
         try {
             this.flag = params[0]; // 0번째 값을 flag 에 (php 파일)
-            String urlString = "http://13.124.222.23/" + this.flag; // EC2 인스턴스 Elastic IPs
+            String urlString = "http://13.124.222.23:8000/" + this.flag; // EC2 인스턴스 Elastic IPs
             URL url = new URL(urlString); // ulrString 을 url 객체로 변환
 
             conn = (HttpURLConnection)url.openConnection(); // url 연결
