@@ -15,7 +15,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url "https://jitpack.io" }
+        maven { url "https://jitpack.io" } // AQuery를 사용하기 위해 필요
     }
 }
 

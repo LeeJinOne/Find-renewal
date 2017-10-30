@@ -29,6 +29,6 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.google.android.gms:play-services-maps:10.0.0'
     compile 'com.google.android.gms:play-services-location:10.0.0'
-    compile 'com.googlecode.android-query:android-query:0.25.9'
+    compile 'com.googlecode.android-query:android-query:0.25.9' // AQuery 라이브러리
     testCompile 'junit:junit:4.12'
 }
