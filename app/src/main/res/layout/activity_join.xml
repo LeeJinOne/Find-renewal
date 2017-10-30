@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingTop="50dp"
+        android:paddingTop="100dp"
         android:layout_gravity="center">
 
         <LinearLayout
@@ -37,7 +37,7 @@
             android:layout_gravity="center"
             android:background="@drawable/find_join_id">
         <EditText
-            android:layout_height="73px"
+            android:layout_height="wrap_content"
             android:maxHeight="40dp"
             android:textSize="15sp"
             android:layout_marginLeft="10dp"
@@ -62,16 +62,16 @@
             android:layout_width="280dp"
             android:layout_height="40dp"
             android:orientation="horizontal"
-            android:layout_gravity="center"
             android:background="@drawable/find_join_id">
             <EditText
-                android:layout_height="73px"
+                android:layout_height="wrap_content"
                 android:maxHeight="40dp"
                 android:textSize="15sp"
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center"
                 android:hint="PASSWORD"
                 android:layout_width="wrap_content"
+                android:inputType="textPassword"
                 android:id="@+id/editPWD"/>
         </LinearLayout>
         <LinearLayout
@@ -79,16 +79,16 @@
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:orientation="horizontal"
-            android:layout_gravity="center"
             android:background="@drawable/find_join_id">
             <EditText
-                android:layout_height="73px"
+                android:layout_height="wrap_content"
                 android:maxHeight="40dp"
                 android:textSize="15sp"
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center"
                 android:hint="PASSWORD CONFIRM"
                 android:layout_width="wrap_content"
+                android:inputType="textPassword"
                 android:id="@+id/editPWD2"/>
         </LinearLayout>
         <TextView
@@ -100,12 +100,12 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="이름                                                         "
+            android:hint="이름                                                     "
             android:id="@+id/editName"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="핸드폰번호                                                    "
+            android:hint="핸드폰번호                                          "
             android:id="@+id/editPho"/>
         <Button
             android:layout_width="280dp"
@@ -115,7 +115,6 @@
             android:text="가 입 하 기"
             android:textColor="#ffffff"
             android:id="@+id/joinBtn"/>
-
         <Button
             android:layout_width="280dp"
             android:layout_height="20dp"
