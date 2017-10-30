@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.androidquery.AQuery;
@@ -29,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
         context = this;
 
         final Button loginBtn = (Button)findViewById(R.id.loginBtn);
-        Button joinBtn = (Button)findViewById(R.id.joinBtn);
+        TextView joinBtn = (TextView)findViewById(R.id.joinBtn);
 
         /**
          *  Login Button 에 AQuery 적용하여 node.js 서버와 통신

@@ -68,7 +68,6 @@ public class JoinActivity extends AppCompatActivity {
         editPWD.addTextChangedListener(textWatcher);
         editPWD2.addTextChangedListener(textWatcher);
 
-        //TODO: node 서버에서 idcheck 라우트 생성해야함
         idCheckBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,7 +75,6 @@ public class JoinActivity extends AppCompatActivity {
             }
         });
 
-        //TODO: node 서버에서 join 라우트 생성해야함
         joinBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -143,6 +141,7 @@ public class JoinActivity extends AppCompatActivity {
     public void checkCallback(String url, JSONObject json, AjaxStatus status) {
         if (json != null) {
             try {
+                Log.d("checkCallback: ", json.getString("result"));
                 String msg = json.getString("msg");
                 String result = json.getString("result");
                 if (result.equals("success")) {
@@ -163,6 +162,7 @@ public class JoinActivity extends AppCompatActivity {
     public void joinCallback(String url, JSONObject json, AjaxStatus status) {
         if (json != null) {
             try {
+                Log.d("joinCallback: ", json.getString("result"));
                 String msg = json.getString("msg");
                 String result = json.getString("result");
                 //TODO: 위치가 애매함, 다시 한번 생각해봐야할 위치
