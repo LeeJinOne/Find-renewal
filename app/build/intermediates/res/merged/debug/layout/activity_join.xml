@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.find.find_renewal.JoinActivity"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/find_join_bar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회 원 가 입"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:background="@drawable/find_join_id">
+        <EditText
+            android:layout_height="wrap_content"
+            android:maxHeight="40dp"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:hint="ID"
+            android:layout_width="wrap_content"
+            android:id="@+id/editID"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="중복확인"
+            android:id="@+id/idCheckBtn"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text=""
+            android:id="@+id/checkID"/>
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@drawable/find_join_id">
+            <EditText
+                android:layout_height="wrap_content"
+                android:maxHeight="40dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:hint="PASSWORD"
+                android:layout_width="wrap_content"
+                android:id="@+id/editPWD"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/find_join_id">
+            <EditText
+                android:layout_height="wrap_content"
+                android:maxHeight="40dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:hint="PASSWORD CONFIRM"
+                android:layout_width="wrap_content"
+                android:id="@+id/editPWD2"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text=""
+            android:id="@+id/checkPWD"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="이름                                                     "
+            android:id="@+id/editName"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="핸드폰번호                                          "
+            android:id="@+id/editPho"/>
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/find_join_button"
+            android:text="가 입 하 기"
+            android:textColor="#ffffff"
+            android:id="@+id/joinBtn"/>
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#a9a9a9"
+            android:text="취 소 하 기"
+            android:textColor="#393939"
+            android:id="@+id/cancelBtn"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

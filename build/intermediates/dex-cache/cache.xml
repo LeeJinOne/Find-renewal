@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jin-won/AndroidStudioProjects/Find-renewal/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/jin-won/AndroidStudioProjects/Find-renewal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_154ecd384722bad6311441570bf47fe88095cd3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jin-won/AndroidStudioProjects/Find-renewal/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5d31b747c7f229d5e94a95c45813191c0acb6245">
+        <dex dex="/Users/jin-won/AndroidStudioProjects/Find-renewal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f7e1ff15ef11cd740cbb02af872c50bbbe007b04/classes.dex" />
+    </item>
+
+</items>

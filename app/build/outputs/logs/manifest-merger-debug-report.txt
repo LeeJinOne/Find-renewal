@@ -1,0 +1,158 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.0.0] /Users/jin-won/.android/build-cache/17a53b0a5e2ac2d86f5c2c16e5a9ee4b8ddd8589/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.0.0] /Users/jin-won/.android/build-cache/17a53b0a5e2ac2d86f5c2c16e5a9ee4b8ddd8589/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:9:5-33:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/jin-won/.android/build-cache/2314178141d8974d2998e391d9b6981fef42d262/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/jin-won/.android/build-cache/0995403bc35e5b665a532791ebe297d7e542ca15/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jin-won/.android/build-cache/c9a91d8258a4c537459c25c0d3c654cc04ce3343/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.0] /Users/jin-won/.android/build-cache/17a53b0a5e2ac2d86f5c2c16e5a9ee4b8ddd8589/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:10.0.0] /Users/jin-won/.android/build-cache/7282167b96d61f8e20f7cdd0ad472ca06799809d/output/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-base:10.0.0] /Users/jin-won/.android/build-cache/f0e35783392745805ac744d870276af9fa080c17/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.0] /Users/jin-won/.android/build-cache/a226d56f55e02db929a84521fca23d06870b7f23/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.0] /Users/jin-won/.android/build-cache/b740f4eca15e09b759975d6ecc15f2c12b8e4962/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/jin-won/.android/build-cache/085efed69006416fb28cb8b35a903375fb0ec844/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/jin-won/.android/build-cache/bc47876874e3de4f86c5cb49542a090cec85c390/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/jin-won/.android/build-cache/04fec6114f631fe63e52e174c38602646d832208/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/jin-won/.android/build-cache/7982e2822a811e34870d1c01a1fb2d386f4ac623/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/jin-won/.android/build-cache/5681e5419cc25543baaae56da09fdc658a5d8995/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/jin-won/.android/build-cache/831b1a6ccc4157d7659b66e86f7d7ee8674ce2ce/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:14:9-35
+	android:roundIcon
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:13:9-54
+	android:allowBackup
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:11:9-43
+	android:theme
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:15:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:18:9-20:71
+	android:value
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:20:13-68
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:19:13-58
+activity#com.find.find_renewal.IntroActivity
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:22:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.find.find_renewal.LoginActivity
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:29:9-50
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:29:19-48
+activity#com.find.find_renewal.JoinActivity
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:30:9-50
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:30:19-47
+activity#com.find.find_renewal.MainActivity
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:31:9-50
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:31:19-47
+activity#com.find.find_renewal.MapsActivity
+ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:32:9-50
+	android:name
+		ADDED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:32:19-47
+uses-sdk
+INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/jin-won/.android/build-cache/2314178141d8974d2998e391d9b6981fef42d262/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/jin-won/.android/build-cache/0995403bc35e5b665a532791ebe297d7e542ca15/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jin-won/.android/build-cache/c9a91d8258a4c537459c25c0d3c654cc04ce3343/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:10.0.0] /Users/jin-won/.android/build-cache/17a53b0a5e2ac2d86f5c2c16e5a9ee4b8ddd8589/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.0] /Users/jin-won/.android/build-cache/f0e35783392745805ac744d870276af9fa080c17/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.0] /Users/jin-won/.android/build-cache/a226d56f55e02db929a84521fca23d06870b7f23/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.0] /Users/jin-won/.android/build-cache/b740f4eca15e09b759975d6ecc15f2c12b8e4962/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/jin-won/.android/build-cache/085efed69006416fb28cb8b35a903375fb0ec844/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/jin-won/.android/build-cache/bc47876874e3de4f86c5cb49542a090cec85c390/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/jin-won/.android/build-cache/04fec6114f631fe63e52e174c38602646d832208/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/jin-won/.android/build-cache/7982e2822a811e34870d1c01a1fb2d386f4ac623/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/jin-won/.android/build-cache/5681e5419cc25543baaae56da09fdc658a5d8995/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/jin-won/.android/build-cache/831b1a6ccc4157d7659b66e86f7d7ee8674ce2ce/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/jin-won/.android/build-cache/2314178141d8974d2998e391d9b6981fef42d262/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/jin-won/.android/build-cache/0995403bc35e5b665a532791ebe297d7e542ca15/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/jin-won/.android/build-cache/085efed69006416fb28cb8b35a903375fb0ec844/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/jin-won/.android/build-cache/bc47876874e3de4f86c5cb49542a090cec85c390/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/jin-won/.android/build-cache/04fec6114f631fe63e52e174c38602646d832208/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/jin-won/.android/build-cache/7982e2822a811e34870d1c01a1fb2d386f4ac623/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/jin-won/.android/build-cache/5681e5419cc25543baaae56da09fdc658a5d8995/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/jin-won/.android/build-cache/831b1a6ccc4157d7659b66e86f7d7ee8674ce2ce/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/AndroidManifest.xml:26:9-47
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.0] /Users/jin-won/.android/build-cache/17a53b0a5e2ac2d86f5c2c16e5a9ee4b8ddd8589/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.0] /Users/jin-won/.android/build-cache/17a53b0a5e2ac2d86f5c2c16e5a9ee4b8ddd8589/output/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.0] /Users/jin-won/.android/build-cache/17a53b0a5e2ac2d86f5c2c16e5a9ee4b8ddd8589/output/AndroidManifest.xml:21:52-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:2:1-35:12 reason: com.google.android.gms.location has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:2:1-35:12 reason: com.google.android.gms.location has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/jin-won/AndroidStudioProjects/Find-renewal/app/src/main/AndroidManifest.xml:2:1-35:12 reason: com.google.android.gms.location requested WRITE_EXTERNAL_STORAGE
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.0] /Users/jin-won/.android/build-cache/f0e35783392745805ac744d870276af9fa080c17/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.0] /Users/jin-won/.android/build-cache/f0e35783392745805ac744d870276af9fa080c17/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.0] /Users/jin-won/.android/build-cache/f0e35783392745805ac744d870276af9fa080c17/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.0] /Users/jin-won/.android/build-cache/f0e35783392745805ac744d870276af9fa080c17/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.0] /Users/jin-won/.android/build-cache/b740f4eca15e09b759975d6ecc15f2c12b8e4962/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.0] /Users/jin-won/.android/build-cache/b740f4eca15e09b759975d6ecc15f2c12b8e4962/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.0] /Users/jin-won/.android/build-cache/b740f4eca15e09b759975d6ecc15f2c12b8e4962/output/AndroidManifest.xml:20:20-65

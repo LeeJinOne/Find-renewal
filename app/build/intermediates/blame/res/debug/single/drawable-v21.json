@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/jin-won/AndroidStudioProjects/Find-renewal/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/jin-won/AndroidStudioProjects/Find-renewal/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/jin-won/AndroidStudioProjects/Find-renewal/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/jin-won/AndroidStudioProjects/Find-renewal/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/jin-won/.android/build-cache/5900a0069d9623fa49ae3cf9fe3187137e1445d0/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]
