@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="android.support.design.widget.Snackbar.make(view,text,duration)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
